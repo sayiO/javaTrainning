@@ -1,5 +1,11 @@
 public class Basics {
+
+
+
     public static void main(String[]args){
-        System.out.println("tapinda tapinda");
+       factorialClass s1 = new factorialClass();
+       s1.fact(10);
+
+
     }
 }
