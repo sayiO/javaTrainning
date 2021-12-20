@@ -18,9 +18,11 @@ public class Basics {
             default -> 0;
 
         };
+        //for loop
         for(int i = 1; i<= 10; i++){
             System.out.println("say i love you babes");
         }*/
+        //while loop
         int i = 1;
         while(i<=5){
             System.out.println("i miss Simbie");
