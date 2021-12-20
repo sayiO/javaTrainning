@@ -21,13 +21,19 @@ public class Basics {
         //for loop
         for(int i = 1; i<= 10; i++){
             System.out.println("say i love you babes");
-        }*/
+        }
         //while loop
         int i = 1;
         while(i<=5){
             System.out.println("i miss Simbie");
             i++;
-        }
+        }*/
+        // do-while loop
+        int i = 0;
+        do{
+            System.out.println(i + " still less than 10");
+            i++;
+        }while(i<10);
 
     }
 
