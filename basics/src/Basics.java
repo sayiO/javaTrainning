@@ -27,13 +27,23 @@ public class Basics {
         while(i<=5){
             System.out.println("i miss Simbie");
             i++;
-        }*/
+        }
         // do-while loop
         int i = 0;
         do{
             System.out.println(i + " still less than 10");
             i++;
         }while(i<10);
+
+         */
+        HumanClass bee = new HumanClass();
+        bee.age = 35;
+        bee.gender = "Male";
+        bee.name = "Onias Sayi Bee";
+        bee.partner = "Simbisanai";
+        bee.speak();
+        bee.eat();
+        bee.walk();
 
     }
 
