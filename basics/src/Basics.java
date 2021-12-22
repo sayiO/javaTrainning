@@ -8,7 +8,8 @@ public class Basics {
         //basicsSyntax n1 = new basicsSyntax();
         //n1.numChecker(12, 36);
         //using a switch statement
-        /*Scanner sc= new Scanner(System.in);
+        Scanner sc= new Scanner(System.in);
+        /*
         System.out.println("enter your month");
         String  month  = sc.next();
         switch (month){
@@ -48,8 +49,12 @@ public class Basics {
         */
 
         Devs d1 = new Devs();
-        d1.devCoding();
-        d1.eat();
+        System.out.println("Enter your name");
+        d1.devName = sc.nextLine();
+        System.out.println("enter your fav language");
+        d1.langName = sc.nextLine();
+        d1.codingLang();
+        d1.favStack();
 
     }
 
