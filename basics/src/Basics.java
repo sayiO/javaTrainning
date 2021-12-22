@@ -34,8 +34,9 @@ public class Basics {
             System.out.println(i + " still less than 10");
             i++;
         }while(i<10);
+*/
+        /*
 
-         */
         HumanClass bee = new HumanClass();
         bee.age = 35;
         bee.gender = "Male";
@@ -44,6 +45,11 @@ public class Basics {
         bee.speak();
         bee.eat();
         bee.walk();
+        */
+
+        Devs d1 = new Devs();
+        d1.devCoding();
+        d1.eat();
 
     }
 
